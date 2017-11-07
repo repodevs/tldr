@@ -1,0 +1,5 @@
+_output
+_site
+.jekyll-metadata
+/node_modules
+/local_dev

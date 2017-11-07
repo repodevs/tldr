@@ -1,0 +1,20 @@
+<div class="about-the-site">
+  <div class="container">
+    <p class='blurb'>
+    <strong><a href="{{ base }}">{{ site.title }}</a></strong> is a collection of cheatsheets about Odoo, Python, Web and Tech Stuff.
+      You can also <a href='https://github.com/repodevs/tldr/issues'>send me</a> suggestions or corrections.
+      <i class='fleuron'></i>
+      I'm <a href="https://me.repodevs.com">Edi Santoso</a>.
+      Check out <a href="https://me.repodevs.com/#story">my story</a> for more.
+    </p>
+
+    {% if page.url != '/index.html' %}
+    <p class='back'>
+      <a class='big-button -back -slim' href='.#toc'></a>
+    </p>
+    {% endif %}
+
+    <p>
+    </p>
+  </div>
+</div>
